@@ -1,0 +1,135 @@
+body {
+    font-family: "Helvetica", sans-serif;
+    padding: 0 100px;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    width: 123px;
+    border-width: 3px;
+    border-color: white;
+    border-right-style: solid;
+
+    height: 100px;
+    padding: 7px;
+}
+
+header nav ul li:nth-child(1) {
+    border-left-style: solid;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #00d3d4;
+    padding: 7px;
+}
+
+header nav ul {
+    margin: 0;
+
+}
+
+header nav {
+    background: #F0F1F5;
+}
+
+header nav ul li a i {
+    display: block;
+    font-size: 30px;
+}
+
+header {
+    /*background: #F0F1F5;*/
+    text-align: center;
+    margin: 0;
+}
+
+main section:nth-child(1) {
+    background: #555C6F;
+    color: #b2b6c0;
+    width: 43%;
+    padding: 10px;
+    height: 29rem;
+
+}
+
+main section {
+    display: inline-block;
+}
+
+main section:nth-child(2) article {
+    display: inline-block;
+
+}
+
+main section:nth-child(2) {
+    /*display: inline-block;*/
+    width: 53%;
+    /*height: 100%;*/
+    background: #01BDBE;
+    /*height: 50%;*/
+    padding: 10px;
+    color: white;
+    margin: 0;
+}
+
+main section:nth-child(2) p {
+    /*display: inline-block;*/
+    width: 43%;
+
+}
+
+main section:nth-child(2) h2 {
+    /*display: inline-block;*/
+    width: 43%;
+
+}
+
+img {
+    border-width: 10px;
+    border-color: white;
+    border-style: solid;
+    width: 200px;
+    margin: 0;
+
+}
+
+main section:nth-child(2) article:nth-child(2) {
+    float: right;
+
+}
+
+main section:nth-child(2) article:nth-child(1) {
+    /*width: 300px;*/
+    width: 10rem;
+
+}
+
+main section:nth-child(2) article:nth-child(1) p {
+
+}
+
+main section article:nth-child(1) {
+    padding-bottom: 48px;
+}
+
+main section article:nth-child(2) {
+    padding-bottom: 92px;
+}
+
+main section article:nth-child(1) p {
+    margin-left: 15px;
+}
+
+main section article:nth-child(1) h2 {
+    margin-left: 15px;
+}
+
+main section article:nth-child(2) i {
+    margin-left: 15px;
+}
+
+main section article:nth-child(3) p {
+    margin-left: 15px;
+}

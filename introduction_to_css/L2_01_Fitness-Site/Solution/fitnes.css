@@ -1,0 +1,92 @@
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    /*float: right;*/
+}
+
+section article {
+    display: inline-block;
+    background-color: #F9690E;
+    color: white;
+    text-align: center;
+    width: 33%;
+    height: 200px;
+}
+
+section article p {
+    text-align: left;
+    padding: 10px;
+
+}
+
+header article {
+    float: left;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+/*nav {*/
+/*float: right;*/
+/*}*/
+
+body {
+    background: #F0F1F5;
+    font-family: Helvetica, sans-serif;
+    padding: 0 100px;
+}
+
+header * {
+    color: #F9690E;
+    text-align: right;
+}
+
+main section:nth-child(1) {
+    background: url("../Requirements-and-Resources/Images/picture.jpg");
+    padding: 11rem;
+    text-align: center;
+}
+
+main section:nth-child(1) h1 {
+    color: white;
+    width: 42%;
+    margin: 0 auto;
+
+}
+
+main section:nth-child(1) button {
+    background: #F9690E;
+    color: wheat;
+    border: none;
+    padding: 9px;
+    width: 12%;
+    margin: 20px;
+}
+
+main section:nth-child(1) h1 span {
+    color: #F9690E;
+}
+
+footer article:nth-child(1) {
+    float: left;
+}
+
+footer article:nth-child(2) {
+    float: right;
+
+}
+footer article:nth-child(2) i{
+    margin: 5px;
+
+}
+
+footer {
+    padding-top: 25px;
+}
